@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game States">
+      <UniqueIdentifier>{cd98f059-4bb5-4f79-ab91-322a7f693bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{e8eac4f3-f64b-45af-b16a-4691637cc2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rasterizer">
+      <UniqueIdentifier>{4c977425-e816-4a13-b66c-88b5c3762acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rasterizer\Rounding">
+      <UniqueIdentifier>{108d414e-9500-4a94-bbaa-695deb23e485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rasterizer\Color">
+      <UniqueIdentifier>{bc33f4d5-9c3f-4250-bc7c-f865c615e0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rasterizer\Frame Buffer">
+      <UniqueIdentifier>{60e0ce14-2e04-4fa9-8b94-f92e315ca4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rasterizer\Scan Conversion">
+      <UniqueIdentifier>{55b23b96-e0d3-4a4e-875c-c9e5e8c21ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rasterizer\Shading">
+      <UniqueIdentifier>{f46990d9-d628-492a-9a92-f420a2c6b191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\2D Pipeline">
+      <UniqueIdentifier>{f08d7456-4efd-4206-baef-f9c0f6cb6bbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Engine\Rasterizer\Color.cpp">
+      <Filter>Graphics\Rasterizer\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\FrameBuffer.cpp">
+      <Filter>Graphics\Rasterizer\Frame Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\Rounding.cpp">
+      <Filter>Graphics\Rasterizer\Rounding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\DrawLine.cpp">
+      <Filter>Graphics\Rasterizer\Scan Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Levels\Common.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\DrawCircle.cpp">
+      <Filter>Graphics\Rasterizer\Scan Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\DrawTriangle.cpp">
+      <Filter>Graphics\Rasterizer\Scan Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\FragmentShaders.cpp">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\Texture.cpp">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\TextureSampler.cpp">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Rasterizer\Blending.cpp">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Pipeline2D\Model.cpp">
+      <Filter>Graphics\2D Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Pipeline2D\Pipeline2D.cpp">
+      <Filter>Graphics\2D Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Pipeline2D\Camera2D.cpp">
+      <Filter>Graphics\2D Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Pipeline2D\Viewport.cpp">
+      <Filter>Graphics\2D Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Levels\Culling.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Levels\ImageEraser.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Levels\PolygonEditor.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Levels\SpriteSheet.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Levels\TextureTransformation.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Levels\TileMap.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Levels\Lighting.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Engine\Rasterizer\Color.h">
+      <Filter>Graphics\Rasterizer\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\FrameBuffer.h">
+      <Filter>Graphics\Rasterizer\Frame Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\Rasterizer.h">
+      <Filter>Graphics\Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\Rounding.h">
+      <Filter>Graphics\Rasterizer\Rounding</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\DrawLine.h">
+      <Filter>Graphics\Rasterizer\Scan Conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Levels\Common.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\DrawCircle.h">
+      <Filter>Graphics\Rasterizer\Scan Conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Levels\GameStates.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\DrawTriangle.h">
+      <Filter>Graphics\Rasterizer\Scan Conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\FragmentShaders.h">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\Vertex.h">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\Texture.h">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\TextureSampler.h">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Rasterizer\Blending.h">
+      <Filter>Graphics\Rasterizer\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Pipeline2D\Model.h">
+      <Filter>Graphics\2D Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Pipeline2D\Camera2D.h">
+      <Filter>Graphics\2D Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Pipeline2D\Pipeline2D.h">
+      <Filter>Graphics\2D Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Pipeline2D\Viewport.h">
+      <Filter>Graphics\2D Pipeline</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
