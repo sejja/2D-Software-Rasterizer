@@ -6,11 +6,20 @@
 ### Project Preview
 <img src="images/Showcase.jpg" width="900">
 
+## Features 
+⚡️ Line, Sphere and Triangle Rasterizations
+⚡️ Space Transformations
+⚡️ Shading
+⚡️ Sampling
+⚡️ Viewports
+⚡️ Blending
+⚡️ Cameras
+⚡️ Clipping and Culling
   
+## Demo Stages
 
 					    Sprite Sheet Animation
 ---------------------------------------------------------------------------------------------------------
-This Demo allows you to import a tileset as a JPG/PNG image and render it real-time.
 You can adjust the tileset rendering options using the GUI provided, such as:
 -Number of Rows
 -Number of Columns
@@ -23,7 +32,6 @@ You are also allowed to pause and reset the animation at any time.
 
 					    Texture Transformation
 ---------------------------------------------------------------------------------------------------------
-This Demo will allow you to tile or crop an Image
 You can adjust the rendering options using the GUI provided, when tiling, you can change:
 -Tiling Options
 -Horizontal Tiles 
@@ -41,15 +49,13 @@ Disclaimer: Cropping a Tiled image was not implemented.
 
 					     	 Tile Map
 ---------------------------------------------------------------------------------------------------------
-This Demo will allow you to create a Tilemap
-You can adjust the rendering optimizations of the tilemap with the presets shown on the GUI.
+You may adjust the rendering optimizations of the tilemap with the presets shown on the GUI.
 You are also able to Save and Load Tilemaps (A sample tilemap is provided in Data/Sample Tilemaps/).
 The camera is movable through the ASDW keys.
 
 
 					      Polygon Editor
 ---------------------------------------------------------------------------------------------------------
-This Demo will allow you to create multiple polygons
 Create a new polygon by Clicking "Create new polygon" and add Vertices by cliking into the window.
 Once you have created a Polygon, you will be able to select it from the palete and:
 -Change it's name.
@@ -60,8 +66,7 @@ Disclaimer: UV's do have bugs.
 
 					       Image Ereaser
 ---------------------------------------------------------------------------------------------------------
-This Demo will allow you to erease the frameBuffer
-You can place images on the screen with Right Click while holding SHIFT
+You may place images on the screen with Right Click while holding SHIFT
 You can erease the image by pressing CTRL and moving the mouse around the window while you keep the right mouse button pressed
 More options are available through the GUI, such as:
 -Change the Object name.
@@ -73,7 +78,6 @@ More options are available through the GUI, such as:
 
 					      	   Culling
 ---------------------------------------------------------------------------------------------------------
-This Demo is a demostration of the Optimization Capabilities of culling
 Objects will be randomly generate a scene. You will be able to move the camera through the WASD keys.
 The GUI will allow you to toogle Culling on and off. If culling is activated, you will also be able to activate Forward culling for an even more noticeable performance boost.
 You can change the sprite of the objects with the "Change sprite button"
@@ -84,7 +88,6 @@ The number of rendered objects will be displayed on the screen and updated real-
 						   Lighting
 ---------------------------------------------------------------------------------------------------------
 Disclaimer: This Demo is partially implemented
-This Demo showcases a light system.
 You can move the mouse over the scene to see how the light casting works in a 2D scene.
 You can Press CTRL to light the scene using Polygon Drawing (contains some bugs).
 
